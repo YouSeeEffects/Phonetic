@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/PhonemeSQL/PhonemeSQL.iml" filepath="$PROJECT_DIR$/PhonemeSQL/PhonemeSQL.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PhonemeSQLProject.iml" filepath="$PROJECT_DIR$/PhonemeSQLProject.iml" />
+    </modules>
+  </component>
+</project>
+
