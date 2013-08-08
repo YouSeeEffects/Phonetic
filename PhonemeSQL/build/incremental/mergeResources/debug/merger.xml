@@ -2,39 +2,39 @@
 <merger>
 
     <dataSet config="main" >
-        <source path="/Users/kizzlebot/AndroidStudioProjects/PhonemeSQLProject/PhonemeSQL/src/main/res" >
+        <source path="/Users/kizzlebot/AndroidStudioProjects/Phonetic/PhonemeSQL/src/main/res" >
             <file
                 name="ic_launcher"
-                path="/Users/kizzlebot/AndroidStudioProjects/PhonemeSQLProject/PhonemeSQL/src/main/res/drawable-hdpi/ic_launcher.png"
+                path="/Users/kizzlebot/AndroidStudioProjects/Phonetic/PhonemeSQL/src/main/res/drawable-hdpi/ic_launcher.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="ic_launcher"
-                path="/Users/kizzlebot/AndroidStudioProjects/PhonemeSQLProject/PhonemeSQL/src/main/res/drawable-mdpi/ic_launcher.png"
+                path="/Users/kizzlebot/AndroidStudioProjects/Phonetic/PhonemeSQL/src/main/res/drawable-mdpi/ic_launcher.png"
                 qualifiers="mdpi"
                 type="drawable" />
             <file
                 name="ic_launcher"
-                path="/Users/kizzlebot/AndroidStudioProjects/PhonemeSQLProject/PhonemeSQL/src/main/res/drawable-xhdpi/ic_launcher.png"
+                path="/Users/kizzlebot/AndroidStudioProjects/Phonetic/PhonemeSQL/src/main/res/drawable-xhdpi/ic_launcher.png"
                 qualifiers="xhdpi"
                 type="drawable" />
             <file
                 name="ic_launcher"
-                path="/Users/kizzlebot/AndroidStudioProjects/PhonemeSQLProject/PhonemeSQL/src/main/res/drawable-xxhdpi/ic_launcher.png"
+                path="/Users/kizzlebot/AndroidStudioProjects/Phonetic/PhonemeSQL/src/main/res/drawable-xxhdpi/ic_launcher.png"
                 qualifiers="xxhdpi"
                 type="drawable" />
             <file
                 name="activity_main"
-                path="/Users/kizzlebot/AndroidStudioProjects/PhonemeSQLProject/PhonemeSQL/src/main/res/layout/activity_main.xml"
+                path="/Users/kizzlebot/AndroidStudioProjects/Phonetic/PhonemeSQL/src/main/res/layout/activity_main.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="main"
-                path="/Users/kizzlebot/AndroidStudioProjects/PhonemeSQLProject/PhonemeSQL/src/main/res/menu/main.xml"
+                path="/Users/kizzlebot/AndroidStudioProjects/Phonetic/PhonemeSQL/src/main/res/menu/main.xml"
                 qualifiers=""
                 type="menu" />
             <file
-                path="/Users/kizzlebot/AndroidStudioProjects/PhonemeSQLProject/PhonemeSQL/src/main/res/values/dimens.xml"
+                path="/Users/kizzlebot/AndroidStudioProjects/Phonetic/PhonemeSQL/src/main/res/values/dimens.xml"
                 qualifiers="" >
                 <dimen name="activity_horizontal_margin" >16dp
                 </dimen>
@@ -42,15 +42,15 @@
                 </dimen>
             </file>
             <file
-                path="/Users/kizzlebot/AndroidStudioProjects/PhonemeSQLProject/PhonemeSQL/src/main/res/values/strings.xml"
+                path="/Users/kizzlebot/AndroidStudioProjects/Phonetic/PhonemeSQL/src/main/res/values/strings.xml"
                 qualifiers="" >
                 <string name="textField" >edit
                 </string>
                 <string name="action_settings" >Settings
                 </string>
-                <string name="button" >Go
-                </string>
                 <string name="app_name" >PhonemeSQL
+                </string>
+                <string name="button" >Go
                 </string>
                 <string name="text" >Hello
                 </string>
@@ -58,7 +58,7 @@
                 </string>
             </file>
             <file
-                path="/Users/kizzlebot/AndroidStudioProjects/PhonemeSQLProject/PhonemeSQL/src/main/res/values/styles.xml"
+                path="/Users/kizzlebot/AndroidStudioProjects/Phonetic/PhonemeSQL/src/main/res/values/styles.xml"
                 qualifiers="" >
 
                 <style
@@ -80,13 +80,13 @@
                 </style>
             </file>
             <file
-                path="/Users/kizzlebot/AndroidStudioProjects/PhonemeSQLProject/PhonemeSQL/src/main/res/values-sw720dp-land/dimens.xml"
+                path="/Users/kizzlebot/AndroidStudioProjects/Phonetic/PhonemeSQL/src/main/res/values-sw720dp-land/dimens.xml"
                 qualifiers="sw720dp-land" >
                 <dimen name="activity_horizontal_margin" >128dp
                 </dimen>
             </file>
             <file
-                path="/Users/kizzlebot/AndroidStudioProjects/PhonemeSQLProject/PhonemeSQL/src/main/res/values-v11/styles.xml"
+                path="/Users/kizzlebot/AndroidStudioProjects/Phonetic/PhonemeSQL/src/main/res/values-v11/styles.xml"
                 qualifiers="v11" >
 
                 <style
@@ -97,7 +97,7 @@
                 </style>
             </file>
             <file
-                path="/Users/kizzlebot/AndroidStudioProjects/PhonemeSQLProject/PhonemeSQL/src/main/res/values-v14/styles.xml"
+                path="/Users/kizzlebot/AndroidStudioProjects/Phonetic/PhonemeSQL/src/main/res/values-v14/styles.xml"
                 qualifiers="v14" >
 
                 <style
@@ -107,11 +107,226 @@
                     <!-- API 14 theme customizations can go here. -->
                 </style>
             </file>
+            <file
+                name="ae"
+                path="/Users/kizzlebot/AndroidStudioProjects/Phonetic/PhonemeSQL/src/main/res/raw/ae.mp3"
+                qualifiers=""
+                type="raw" />
+            <file
+                name="dh"
+                path="/Users/kizzlebot/AndroidStudioProjects/Phonetic/PhonemeSQL/src/main/res/raw/dh.mp3"
+                qualifiers=""
+                type="raw" />
+            <file
+                name="s"
+                path="/Users/kizzlebot/AndroidStudioProjects/Phonetic/PhonemeSQL/src/main/res/raw/s.mp3"
+                qualifiers=""
+                type="raw" />
+            <file
+                name="ao1"
+                path="/Users/kizzlebot/AndroidStudioProjects/Phonetic/PhonemeSQL/src/main/res/raw/ao1.mp3"
+                qualifiers=""
+                type="raw" />
+            <file
+                name="r"
+                path="/Users/kizzlebot/AndroidStudioProjects/Phonetic/PhonemeSQL/src/main/res/raw/r.mp3"
+                qualifiers=""
+                type="raw" />
+            <file
+                name="k"
+                path="/Users/kizzlebot/AndroidStudioProjects/Phonetic/PhonemeSQL/src/main/res/raw/k.mp3"
+                qualifiers=""
+                type="raw" />
+            <file
+                name="m"
+                path="/Users/kizzlebot/AndroidStudioProjects/Phonetic/PhonemeSQL/src/main/res/raw/m.mp3"
+                qualifiers=""
+                type="raw" />
+            <file
+                name="y"
+                path="/Users/kizzlebot/AndroidStudioProjects/Phonetic/PhonemeSQL/src/main/res/raw/y.mp3"
+                qualifiers=""
+                type="raw" />
+            <file
+                name="aw"
+                path="/Users/kizzlebot/AndroidStudioProjects/Phonetic/PhonemeSQL/src/main/res/raw/aw.mp3"
+                qualifiers=""
+                type="raw" />
+            <file
+                name="f"
+                path="/Users/kizzlebot/AndroidStudioProjects/Phonetic/PhonemeSQL/src/main/res/raw/f.mp3"
+                qualifiers=""
+                type="raw" />
+            <file
+                name="axr"
+                path="/Users/kizzlebot/AndroidStudioProjects/Phonetic/PhonemeSQL/src/main/res/raw/axr.mp3"
+                qualifiers=""
+                type="raw" />
+            <file
+                name="v"
+                path="/Users/kizzlebot/AndroidStudioProjects/Phonetic/PhonemeSQL/src/main/res/raw/v.mp3"
+                qualifiers=""
+                type="raw" />
+            <file
+                name="p"
+                path="/Users/kizzlebot/AndroidStudioProjects/Phonetic/PhonemeSQL/src/main/res/raw/p.mp3"
+                qualifiers=""
+                type="raw" />
+            <file
+                name="zh"
+                path="/Users/kizzlebot/AndroidStudioProjects/Phonetic/PhonemeSQL/src/main/res/raw/zh.mp3"
+                qualifiers=""
+                type="raw" />
+            <file
+                name="b"
+                path="/Users/kizzlebot/AndroidStudioProjects/Phonetic/PhonemeSQL/src/main/res/raw/b.mp3"
+                qualifiers=""
+                type="raw" />
+            <file
+                name="eh"
+                path="/Users/kizzlebot/AndroidStudioProjects/Phonetic/PhonemeSQL/src/main/res/raw/eh.mp3"
+                qualifiers=""
+                type="raw" />
+            <file
+                name="ng"
+                path="/Users/kizzlebot/AndroidStudioProjects/Phonetic/PhonemeSQL/src/main/res/raw/ng.mp3"
+                qualifiers=""
+                type="raw" />
+            <file
+                name="sh"
+                path="/Users/kizzlebot/AndroidStudioProjects/Phonetic/PhonemeSQL/src/main/res/raw/sh.mp3"
+                qualifiers=""
+                type="raw" />
+            <file
+                name="ah0"
+                path="/Users/kizzlebot/AndroidStudioProjects/Phonetic/PhonemeSQL/src/main/res/raw/ah0.mp3"
+                qualifiers=""
+                type="raw" />
+            <file
+                name="aa1"
+                path="/Users/kizzlebot/AndroidStudioProjects/Phonetic/PhonemeSQL/src/main/res/raw/aa1.mp3"
+                qualifiers=""
+                type="raw" />
+            <file
+                name="d"
+                path="/Users/kizzlebot/AndroidStudioProjects/Phonetic/PhonemeSQL/src/main/res/raw/d.mp3"
+                qualifiers=""
+                type="raw" />
+            <file
+                name="uw"
+                path="/Users/kizzlebot/AndroidStudioProjects/Phonetic/PhonemeSQL/src/main/res/raw/uw.mp3"
+                qualifiers=""
+                type="raw" />
+            <file
+                name="er_"
+                path="/Users/kizzlebot/AndroidStudioProjects/Phonetic/PhonemeSQL/src/main/res/raw/er_.mp3"
+                qualifiers=""
+                type="raw" />
+            <file
+                name="ch"
+                path="/Users/kizzlebot/AndroidStudioProjects/Phonetic/PhonemeSQL/src/main/res/raw/ch.mp3"
+                qualifiers=""
+                type="raw" />
+            <file
+                name="th"
+                path="/Users/kizzlebot/AndroidStudioProjects/Phonetic/PhonemeSQL/src/main/res/raw/th.mp3"
+                qualifiers=""
+                type="raw" />
+            <file
+                name="ah1"
+                path="/Users/kizzlebot/AndroidStudioProjects/Phonetic/PhonemeSQL/src/main/res/raw/ah1.mp3"
+                qualifiers=""
+                type="raw" />
+            <file
+                name="jh"
+                path="/Users/kizzlebot/AndroidStudioProjects/Phonetic/PhonemeSQL/src/main/res/raw/jh.mp3"
+                qualifiers=""
+                type="raw" />
+            <file
+                name="ih"
+                path="/Users/kizzlebot/AndroidStudioProjects/Phonetic/PhonemeSQL/src/main/res/raw/ih.mp3"
+                qualifiers=""
+                type="raw" />
+            <file
+                name="uh"
+                path="/Users/kizzlebot/AndroidStudioProjects/Phonetic/PhonemeSQL/src/main/res/raw/uh.mp3"
+                qualifiers=""
+                type="raw" />
+            <file
+                name="er"
+                path="/Users/kizzlebot/AndroidStudioProjects/Phonetic/PhonemeSQL/src/main/res/raw/er.mp3"
+                qualifiers=""
+                type="raw" />
+            <file
+                name="ay"
+                path="/Users/kizzlebot/AndroidStudioProjects/Phonetic/PhonemeSQL/src/main/res/raw/ay.mp3"
+                qualifiers=""
+                type="raw" />
+            <file
+                name="ow1"
+                path="/Users/kizzlebot/AndroidStudioProjects/Phonetic/PhonemeSQL/src/main/res/raw/ow1.mp3"
+                qualifiers=""
+                type="raw" />
+            <file
+                name="hh"
+                path="/Users/kizzlebot/AndroidStudioProjects/Phonetic/PhonemeSQL/src/main/res/raw/hh.mp3"
+                qualifiers=""
+                type="raw" />
+            <file
+                name="g"
+                path="/Users/kizzlebot/AndroidStudioProjects/Phonetic/PhonemeSQL/src/main/res/raw/g.mp3"
+                qualifiers=""
+                type="raw" />
+            <file
+                name="oy"
+                path="/Users/kizzlebot/AndroidStudioProjects/Phonetic/PhonemeSQL/src/main/res/raw/oy.mp3"
+                qualifiers=""
+                type="raw" />
+            <file
+                name="eh1"
+                path="/Users/kizzlebot/AndroidStudioProjects/Phonetic/PhonemeSQL/src/main/res/raw/eh1.mp3"
+                qualifiers=""
+                type="raw" />
+            <file
+                name="w"
+                path="/Users/kizzlebot/AndroidStudioProjects/Phonetic/PhonemeSQL/src/main/res/raw/w.mp3"
+                qualifiers=""
+                type="raw" />
+            <file
+                name="n"
+                path="/Users/kizzlebot/AndroidStudioProjects/Phonetic/PhonemeSQL/src/main/res/raw/n.mp3"
+                qualifiers=""
+                type="raw" />
+            <file
+                name="aa"
+                path="/Users/kizzlebot/AndroidStudioProjects/Phonetic/PhonemeSQL/src/main/res/raw/aa.mp3"
+                qualifiers=""
+                type="raw" />
+            <file
+                name="l"
+                path="/Users/kizzlebot/AndroidStudioProjects/Phonetic/PhonemeSQL/src/main/res/raw/l.mp3"
+                qualifiers=""
+                type="raw" />
+            <file
+                name="t"
+                path="/Users/kizzlebot/AndroidStudioProjects/Phonetic/PhonemeSQL/src/main/res/raw/t.mp3"
+                qualifiers=""
+                type="raw" />
+            <file
+                name="iy"
+                path="/Users/kizzlebot/AndroidStudioProjects/Phonetic/PhonemeSQL/src/main/res/raw/iy.mp3"
+                qualifiers=""
+                type="raw" />
+            <file
+                name="z"
+                path="/Users/kizzlebot/AndroidStudioProjects/Phonetic/PhonemeSQL/src/main/res/raw/z.mp3"
+                qualifiers=""
+                type="raw" />
         </source>
-        <source path="/Users/kizzlebot/AndroidStudioProjects/PhonemeSQLProject/PhonemeSQL/build/res/rs/debug" />
+        <source path="/Users/kizzlebot/AndroidStudioProjects/Phonetic/PhonemeSQL/build/res/rs/debug" />
     </dataSet>
     <dataSet config="debug" >
-        <source path="/Users/kizzlebot/AndroidStudioProjects/PhonemeSQLProject/PhonemeSQL/src/debug/res" />
+        <source path="/Users/kizzlebot/AndroidStudioProjects/Phonetic/PhonemeSQL/src/debug/res" />
     </dataSet>
 
 </merger>
