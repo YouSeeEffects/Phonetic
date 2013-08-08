@@ -11,52 +11,97 @@ public final class R {
     public static final class attr {
     }
     public static final class dimen {
-        /**  From: file:/Users/kizzlebot/AndroidStudioProjects/PhonemeSQLProject/PhonemeSQL/src/main/res/values/dimens.xml 
- From: file:/Users/kizzlebot/AndroidStudioProjects/PhonemeSQLProject/PhonemeSQL/src/main/res/values-sw720dp-land/dimens.xml 
+        /**  From: file:/Users/kizzlebot/AndroidStudioProjects/Phonetic/PhonemeSQL/src/main/res/values/dimens.xml 
+ From: file:/Users/kizzlebot/AndroidStudioProjects/Phonetic/PhonemeSQL/src/main/res/values-sw720dp-land/dimens.xml 
          */
-        public static final int activity_horizontal_margin=0x7f040000;
-        public static final int activity_vertical_margin=0x7f040001;
+        public static final int activity_horizontal_margin=0x7f050000;
+        public static final int activity_vertical_margin=0x7f050001;
     }
     public static final class drawable {
         public static final int ic_launcher=0x7f020000;
     }
     public static final class id {
-        public static final int action_settings=0x7f080003;
-        public static final int button=0x7f080002;
-        public static final int editText=0x7f080001;
-        public static final int text=0x7f080000;
+        public static final int action_settings=0x7f090003;
+        public static final int button=0x7f090002;
+        public static final int editText=0x7f090001;
+        public static final int text=0x7f090000;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
     }
     public static final class menu {
-        public static final int main=0x7f070000;
+        public static final int main=0x7f080000;
+    }
+    public static final class raw {
+        public static final int aa=0x7f040000;
+        public static final int aa1=0x7f040001;
+        public static final int ae=0x7f040002;
+        public static final int ah0=0x7f040003;
+        public static final int ah1=0x7f040004;
+        public static final int ao1=0x7f040005;
+        public static final int aw=0x7f040006;
+        public static final int axr=0x7f040007;
+        public static final int ay=0x7f040008;
+        public static final int b=0x7f040009;
+        public static final int ch=0x7f04000a;
+        public static final int d=0x7f04000b;
+        public static final int dh=0x7f04000c;
+        public static final int eh=0x7f04000d;
+        public static final int eh1=0x7f04000e;
+        public static final int er=0x7f04000f;
+        public static final int er_=0x7f040010;
+        public static final int f=0x7f040011;
+        public static final int g=0x7f040012;
+        public static final int hh=0x7f040013;
+        public static final int ih=0x7f040014;
+        public static final int iy=0x7f040015;
+        public static final int jh=0x7f040016;
+        public static final int k=0x7f040017;
+        public static final int l=0x7f040018;
+        public static final int m=0x7f040019;
+        public static final int n=0x7f04001a;
+        public static final int ng=0x7f04001b;
+        public static final int ow1=0x7f04001c;
+        public static final int oy=0x7f04001d;
+        public static final int p=0x7f04001e;
+        public static final int r=0x7f04001f;
+        public static final int s=0x7f040020;
+        public static final int sh=0x7f040021;
+        public static final int t=0x7f040022;
+        public static final int th=0x7f040023;
+        public static final int uh=0x7f040024;
+        public static final int uw=0x7f040025;
+        public static final int v=0x7f040026;
+        public static final int w=0x7f040027;
+        public static final int y=0x7f040028;
+        public static final int z=0x7f040029;
+        public static final int zh=0x7f04002a;
     }
     public static final class string {
-        /**  From: file:/Users/kizzlebot/AndroidStudioProjects/PhonemeSQLProject/PhonemeSQL/src/main/res/values/strings.xml 
+        /**  From: file:/Users/kizzlebot/AndroidStudioProjects/Phonetic/PhonemeSQL/src/main/res/values/strings.xml 
          */
-        public static final int action_settings=0x7f050000;
-        public static final int app_name=0x7f050001;
-        public static final int button=0x7f050002;
-        public static final int hello_world=0x7f050003;
-        public static final int text=0x7f050004;
-        public static final int textField=0x7f050005;
+        public static final int action_settings=0x7f060000;
+        public static final int app_name=0x7f060001;
+        public static final int button=0x7f060002;
+        public static final int hello_world=0x7f060003;
+        public static final int text=0x7f060004;
+        public static final int textField=0x7f060005;
     }
     public static final class style {
-        /**  From: file:/Users/kizzlebot/AndroidStudioProjects/PhonemeSQLProject/PhonemeSQL/src/main/res/values/styles.xml 
+        /**  From: file:/Users/kizzlebot/AndroidStudioProjects/Phonetic/PhonemeSQL/src/main/res/values/styles.xml 
 
             Theme customizations available in newer API levels can go in
             res/values-vXX/styles.xml, while customizations related to
             backward-compatibility can go here.
         
- From: file:/Users/kizzlebot/AndroidStudioProjects/PhonemeSQLProject/PhonemeSQL/src/main/res/values-v11/styles.xml 
+ From: file:/Users/kizzlebot/AndroidStudioProjects/Phonetic/PhonemeSQL/src/main/res/values-v11/styles.xml 
  API 11 theme customizations can go here. 
- From: file:/Users/kizzlebot/AndroidStudioProjects/PhonemeSQLProject/PhonemeSQL/src/main/res/values-v14/styles.xml 
+ From: file:/Users/kizzlebot/AndroidStudioProjects/Phonetic/PhonemeSQL/src/main/res/values-v14/styles.xml 
  API 14 theme customizations can go here. 
          */
-        public static final int AppBaseTheme=0x7f060000;
+        public static final int AppBaseTheme=0x7f070000;
         /**  All customizations that are NOT specific to a particular API-level can go here. 
          */
-        public static final int AppTheme=0x7f060001;
+        public static final int AppTheme=0x7f070001;
     }
 }

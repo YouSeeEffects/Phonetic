@@ -19,4 +19,4 @@
       android:text="@string/button"
       android:id="@+id/button" android:layout_gravity="center"/>
 </LinearLayout>
-<!-- From: file:/Users/kizzlebot/AndroidStudioProjects/PhonemeSQLProject/PhonemeSQL/src/main/res/layout/activity_main.xml -->
+<!-- From: file:/Users/kizzlebot/AndroidStudioProjects/Phonetic/PhonemeSQL/src/main/res/layout/activity_main.xml -->

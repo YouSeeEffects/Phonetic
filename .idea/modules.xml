@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/PhonemeSQL/PhonemeSQL.iml" filepath="$PROJECT_DIR$/PhonemeSQL/PhonemeSQL.iml" />
       <module fileurl="file://$PROJECT_DIR$/PhonemeSQLProject.iml" filepath="$PROJECT_DIR$/PhonemeSQLProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Phonetic.iml" filepath="$PROJECT_DIR$/Phonetic.iml" />
     </modules>
   </component>
 </project>
