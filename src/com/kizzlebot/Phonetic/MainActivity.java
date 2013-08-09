@@ -2,12 +2,12 @@ package com.kizzlebot.Phonetic;
 
 
 import android.app.Activity;
+import android.content.ComponentName;
 import android.content.Context;
-import android.media.AudioManager;
-import android.media.MediaPlayer;
-import android.media.MediaPlayer.OnCompletionListener;
-import android.media.MediaPlayer.OnPreparedListener;
+import android.content.Intent;
+import android.content.ServiceConnection;
 import android.os.Bundle;
+import android.os.IBinder;
 import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -17,20 +17,16 @@ import android.widget.TextView;
 
 import com.kizzlebot.Phonetic.R.id;
 import com.kizzlebot.Phonetic.R.layout;
+import com.kizzlebot.Phonetic.SoundManager.LocalBinder;
 
 public class MainActivity extends Activity implements OnClickListener {
 
-
-
-
     private DatabaseHandler db;
 
-
-    private static MediaPlayer mp;
     public Button mButton ;
     public EditText mEdit ;
     public TextView mTxt ;
-
+    public boolean mBound=false;
     public SoundManager mSoundManager ;
 
     @Override
@@ -43,57 +39,58 @@ public class MainActivity extends Activity implements OnClickListener {
         mEdit   = (EditText)findViewById( id.editText);
         mTxt = (TextView)findViewById( id.text );
 
-        mp = new MediaPlayer();
 
-        setVolumeControlStream( AudioManager.STREAM_MUSIC );
         mButton.setOnClickListener( this );
+
     }
 
+    @Override
+    protected void onStart () {
+        super.onStart();
+        Intent intent = new Intent(this,SoundManager.class);
+        bindService(intent,mConnection, Context.BIND_AUTO_CREATE);
+    }
+    @Override
+    protected void onStop() {
+        super.onStop();
+        // Unbind from the service
+        if (mBound) {
+            unbindService(mConnection);
+            mBound = false;
+        }
+    }
 
-
+    /** Defines callbacks for service binding, passed to bindService() */
+    private ServiceConnection mConnection = new ServiceConnection() {
+        @Override
+        public void onServiceConnected(ComponentName className, IBinder service) {
+            // We've bound to LocalService, cast the IBinder and get LocalService instance
+            LocalBinder binder = (LocalBinder) service;
+            mSoundManager = binder.getService();
+            mBound = true;
+        }
+        @Override
+        public void onServiceDisconnected(ComponentName arg0) {
+            mBound = false;
+        }};
     public void onClick ( View v ) {
-
         String query = mEdit.getText().toString();
         Word out = db.getEntry( query.toUpperCase() ); // getEntry causes query mp3s to be loaded
-        mSoundManager = new SoundManager(out.getCode().split( "\\s+" ).length,this);
-        mSoundManager.initSounds(  );
-        mTxt.setText(out.getCode());
-        mp.setOnPreparedListener(new OnPreparedListener() {
-            @Override
-            public void onPrepared ( MediaPlayer mpa ) {
-                Log.d( "inside onPrepared","onPrepared(MediaPlayer mpa) called now" );
-
-                mpa.start();
-            }
-        });
-        mp.setOnCompletionListener( new OnCompletionListener() {
-            @Override
-            public void onCompletion ( MediaPlayer mpa ) {
-                Log.d( "inside OnCompletion","onCompletion(MediaPlayer mpa) called now" );
-                mpa = MediaPlayer.create( getBaseContext(),R.raw.aa1 );
-            }
-        } );
-
-
-        int[] tracks = db.getTracks( out );
-
-        final Context myContext = this;
-        mp = MediaPlayer.create( this,R.raw.aa1 );
-
-
-        //mSoundManager.addSound( 1 ,R.raw.eh1);
-        //mSoundManager.addSound( 2, R.raw.d );
-        //mSoundManager.addSound( 3, R.raw.ah0 );
-        //mSoundManager.addSound( 4, R.raw.t );
-        //
-        //
-        //
-        //
-        //mSoundManager.playSound( 1 );
-        //mSoundManager.playSound( 2 );
-        //mSoundManager.playSound( 3 );
-        //mSoundManager.playSound( 4 );
+        //int[] r = {R.raw.aa,R.raw.aa1};
+        //mSoundManager.setRequests( r );
+        mTxt.setText( out.getCode() );
+        Log.i( "onClick has been called", "Onclick called, val of mBound="+mBound );
+        if( mBound){
+            mSoundManager.soundPlay( 1 );
+        }
     }
-
+    public void onButtonClick(View v){
+        Log.i( "onButtonClick has been called", "onButtonClick called" );
+        String query = mEdit.getText().toString();
+        Word out = db.getEntry( query.toUpperCase() ); // getEntry causes query mp3s to be loaded
+        int[] r = {R.raw.aa,R.raw.aa1};
+        mSoundManager.setRequests( r );
+        mTxt.setText( out.getCode() );
+    }
 
 }

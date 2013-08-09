@@ -14,10 +14,14 @@
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
     android:text="@string/textField"
-    android:id="@+id/editText" android:layout_gravity="center"/>
+    android:id="@+id/editText"
+    android:layout_gravity="center"/>
   <Button
     android:layout_width="92dp"
     android:layout_height="wrap_content"
     android:text="@string/button"
-    android:id="@+id/button" android:layout_gravity="center"/>
+    android:id="@+id/button"
+    android:layout_gravity="center"
+    android:onClick="onButtonClick"/>
+
 </LinearLayout>
