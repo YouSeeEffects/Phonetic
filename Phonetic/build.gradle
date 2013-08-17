@@ -1,0 +1,34 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:0.5.+'
+    }
+}
+apply plugin: 'android'
+
+repositories {
+    mavenCentral()
+}
+dependencies {
+    compile project (':libraries:ActionBarSherlock')
+}
+
+android {
+    compileSdkVersion 18
+    buildToolsVersion "18.0.1"
+
+    defaultConfig {
+        minSdkVersion 7
+        targetSdkVersion 17
+    }
+    sourceSets {
+        main {
+            java.srcDir 'src/main/java/'
+            resources.srcDir 'src/main/res'
+            assets.srcDirs = ['assets']
+        }
+    }
+}
+

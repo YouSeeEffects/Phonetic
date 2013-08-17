@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <string name="app_name">Phonetic</string>
+  <string name="action_settings">Settings</string>
+  <string name="tab_navigation_content">Hello world!</string>
+
+  <string name="word">Hello</string>
+  <string name="phoneme"></string>
+</resources>
